@@ -2,6 +2,10 @@
 // console.log(cuboid.volume()); // 100
 // console.log(cuboid.surfaceArea()); // 130
 
+
+// I was getting an error that Cuboidmaker was already defined 
+//(from the prototype file) so I added "Class" to this class name.
+
 class CuboidMakerClass {
     constructor(dimensions) {
     this.length = dimensions.length;
